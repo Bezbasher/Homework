@@ -1,4 +1,6 @@
 import math
+import module_add
+import module_sub
 menu='''Что делаем?
 1. Сложение
 2. Вычитание
@@ -7,11 +9,12 @@ menu='''Что делаем?
 5. Выход
 '''
 
-def addition(n1,n2):
-    return n1+n2
+# def addition(n1,n2):
 
-def subtraction(n1,n2):
-    return n1-n2
+
+
+# def subtraction(n1,n2):
+#     return n1-n2
 
 def multiplication(n1,n2):
     return n1*n2
@@ -31,7 +34,7 @@ while True:
         vvod=input('Выберите операцию:  ')
         match vvod:
             case '1':
-                print(addition(n1,n2))
+                print(module_add)
             case '2':
                 print(subtraction(n1,n2))
             case '3':
